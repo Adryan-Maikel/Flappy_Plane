@@ -12,8 +12,14 @@
     {"name":"Scripts","order":2,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":10,"path":"folders/Sequências.yy",},
     {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
-    {"name":"Sons","order":4,"path":"folders/Sons.yy",},
+    {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
+    {"name":"mountains","order":2,"path":"folders/Objects/mountains.yy",},
+    {"name":"mountains","order":3,"path":"folders/Sprites/mountains.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_mountain_down","order":1,"path":"sprites/spr_mountain_down/spr_mountain_down.yy",},
+    {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_mountain_down","order":2,"path":"objects/obj_mountain_down/obj_mountain_down.yy",},
+  ],
 }
