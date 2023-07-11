@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mountains Sprites","folderPath":"folders/Sprites/Mountains Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"background","folderPath":"folders/Sprites/background.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -41,6 +42,7 @@
     {"id":{"name":"spr_mountain_up","path":"sprites/spr_mountain_up/spr_mountain_up.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"rm_initial","path":"rooms/rm_initial/rm_initial.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_mountain_down","path":"sprites/spr_mountain_down/spr_mountain_down.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
@@ -48,8 +50,8 @@
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_initial","path":"rooms/rm_initial/rm_initial.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
