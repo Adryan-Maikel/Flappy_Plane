@@ -1,3 +1,4 @@
 /// @description 
 // Chamando alarm que cria as montanhas
+distance_mountains = 192; // Diminuir faz o jogo ficar mais dificil
 alarm[0] = game_get_speed(gamespeed_fps);

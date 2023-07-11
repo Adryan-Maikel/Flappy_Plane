@@ -37,15 +37,18 @@
   },
   "resources": [
     {"id":{"name":"obj_mountain_up","path":"objects/obj_mountain_up/obj_mountain_up.yy",},},
+    {"id":{"name":"scr_initial","path":"scripts/scr_initial/scr_initial.yy",},},
     {"id":{"name":"spr_mountain_up","path":"sprites/spr_mountain_up/spr_mountain_up.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"rm_initial","path":"rooms/rm_initial/rm_initial.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_mountain_down","path":"sprites/spr_mountain_down/spr_mountain_down.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_mountain_down","path":"objects/obj_mountain_down/obj_mountain_down.yy",},},
-    {"id":{"name":"rm_initial","path":"rooms/rm_initial/rm_initial.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_initial","path":"rooms/rm_initial/rm_initial.yy",},},
   ],
   "TextureGroups": [

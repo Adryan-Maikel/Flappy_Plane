@@ -18,6 +18,7 @@
     {"name":"Mountains Sprites","order":3,"path":"folders/Sprites/Mountains Sprites.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"rm_initial","order":1,"path":"rooms/rm_initial/rm_initial.yy",},
     {"name":"spr_mountain_down","order":1,"path":"sprites/spr_mountain_down/spr_mountain_down.yy",},
     {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_mountain_down","order":2,"path":"objects/obj_mountain_down/obj_mountain_down.yy",},
