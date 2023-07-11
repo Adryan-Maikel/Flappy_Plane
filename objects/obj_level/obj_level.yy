@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cave_floor",
-  "eventList": [],
+  "name": "obj_level",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cave Objects",
-    "path": "folders/Objects/Cave Objects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cave_floor",
-    "path": "sprites/spr_cave_floor/spr_cave_floor.yy",
+    "name": "spr_level",
+    "path": "sprites/spr_level/spr_level.yy",
   },
   "spriteMaskId": null,
   "visible": true,
