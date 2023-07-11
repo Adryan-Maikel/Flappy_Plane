@@ -1,11 +1,11 @@
 /// @description 
 // Game jogando sozinho
-if room == rm_initial { alarm[1] = game_get_speed(gamespeed_fps); exit; }
+if not global.start_game { alarm[1] = game_get_speed(gamespeed_fps); exit; }
 
 //  Criando montanhas
 var _mountain_y = random_range(-190, 0)// meio -100
 instance_create_layer(864, _mountain_y, "Instances", obj_mountain_up);
-_mountain_y += spr_mountain_up.sprite_height*2 + distance_mountains // meio 570
+_mountain_y += obj_mountain_up.sprite_height*2 + distance_mountains // meio 570
 instance_create_layer(864, _mountain_y, "Instances", obj_mountain_down);
 
 var _minimum_time = 1/(1+(global.level * 0.1));

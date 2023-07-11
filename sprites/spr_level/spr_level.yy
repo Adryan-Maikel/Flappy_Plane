@@ -33,8 +33,8 @@
   "nineSlice": null,
   "origin": 1,
   "parent": {
-    "name": "Level",
-    "path": "folders/Sprites/Level.yy",
+    "name": "Game",
+    "path": "folders/Sprites/Game.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
