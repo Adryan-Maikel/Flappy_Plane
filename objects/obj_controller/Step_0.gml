@@ -25,6 +25,6 @@ if next_level <= points {
 	next_level *= 2;
 	_level_points = 0.1 * global.level;
 	global.level++; // show_debug_message(global.level);
-	if audio_is_paused(snd_level_up) audio_play_sound(snd_level_up, 1, false);
+	if not audio_is_playing(snd_level_up) audio_play_sound(snd_level_up, 1, false);
 
 }
